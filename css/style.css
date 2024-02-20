@@ -1,0 +1,589 @@
+/* #9e0404 */
+
+body {
+    padding-top: 70px;
+    background-color: black;
+}
+
+
+/*Start Nav bar*/
+
+
+/*size containerel nav bar*/
+
+.container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/*size el nav bar*/
+
+.navbar {
+    min-height: 80px;
+    background-color: black;
+}
+
+
+/*the active link in the nav bar*/
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #9e0404;
+}
+
+
+/*color el nav bar links*/
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFEDF5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+
+/*color el logo*/
+
+.navbar-inverse .navbar-brand {
+    color: #9e0404;
+    font-size: 30px;
+    font-family: monospace;
+    line-height: 50px;
+}
+
+.navbar-inverse .navbar-brand span {
+    color: white;
+}
+
+
+/* hover el logo */
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #9e0404;
+}
+
+
+/*hover el link f el nav bar*/
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #9e0404;
+    background-color: transparent;
+}
+
+
+/*el toggle el zorar ely fel ganb*/
+
+.navbar-toggle {
+    margin-top: 18px;
+}
+
+
+/* end nav bar */
+
+
+/*start section about us */
+
+.about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.about h1 {
+    color: white;
+}
+
+.about span {
+    color: #9e0404;
+}
+
+.about h3 {
+    padding-top: 15px;
+    color: white;
+}
+
+
+/*lead da el class bta3 el paragraph*/
+
+.about .lead {
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+
+/*end section about us
+
+/*Start section classes*/
+
+.price_table {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.price_table h1 {
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.price_table span {
+    margin-bottom: 30px;
+    color: #9e0404;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.price_table .price_box {
+    background: black;
+    padding: 10px;
+    border: 1px solid #9e0404;
+    margin-bottom: 15px;
+}
+
+.price_table .price_box h2 {
+    margin: 5px 0 15px;
+}
+
+.price_table .price_box p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #9e0404;
+}
+
+.price_table .price_box:hover img {
+    -webkit-transform: translateY(0px) scale(0.8);
+    -moz-transform: translateY(0px) scale(0.8);
+    -ms-transform: translateY(0px) scale(0.8);
+    -o-transform: translateY(0px) scale(0.8);
+    transform: translateY(0px) scale(0.8);
+}
+
+.price_table .price_box img {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    width: 100%
+}
+
+.info li {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.info li.right-text {
+    color: #8a8a8a;
+    margin-left: 6em;
+    margin-bottom: 15px
+}
+
+ul.info {
+    margin: 1.5em 0;
+    margin-bottom: 15px;
+}
+
+.price_table .price_box a {
+    display: block;
+    background-color: #9e0404;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.price_table .price_box a:hover {
+    background-color: #9e0404;
+    color: white;
+}
+
+.price_table .price_box a:active {
+    background-color: black;
+}
+
+.price_table .price_box a:visited {
+    background-color: #ccc;
+}
+
+
+/*End section classes*/
+
+
+/*start video*/
+
+.homepage-block-full-width video {
+    display: block;
+    height: auto;
+}
+
+video {
+    object-fit: contain;
+}
+
+
+/*end video*/
+
+
+/*start section contact us*/
+
+.contact-us {
+    background: url('../hit/IMG_4203.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+}
+
+.contact-us p {
+    margin-bottom: 60px;
+    color: #9e0404;
+    text-transform: capitalize;
+    transform-style: initial;
+}
+
+.contact-us h1 {
+    color: black;
+}
+
+.contact-us i {
+    color: #9e0404;
+}
+
+.contact-us textarea {
+    height: 108px;
+}
+
+.contact-us button {
+    background-color: #9e0404;
+    color: white;
+    border: 0px;
+}
+
+
+/*end section contact us*/
+
+
+/*start footer*/
+
+.footer {
+    background: black;
+    color: #AAA;
+    padding-top: 20px;
+}
+
+.footer a {
+    color: #AAA;
+}
+
+.footer a:hover {
+    color: #FFF;
+}
+
+.footer h2 {
+    color: #9e0404;
+    letter-spacing: 1px;
+}
+
+.footer .threecol {
+    overflow: hidden;
+}
+
+.footer .threecol li {
+    width: 33.33333%;
+    float: left;
+    padding: 5px;
+}
+
+.footer .icons {
+    overflow: hidden;
+}
+
+.footer .icons li {
+    width: 15%;
+    float: left;
+}
+
+.footer .icons .fa-facebook {
+    color: #1D387D;
+}
+
+.footer .icons .fa-instagram {
+    color: #FCEEC5;
+}
+
+.footer .icons .fa-pinterest {
+    color: #F72349;
+}
+
+.footer .icons .fa-youtube-play {
+    color: red;
+}
+
+.footer .copyright {
+    background: black;
+    color: #aaa;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.footer .copyright span {
+    color: #9e0404;
+}
+
+
+/*end footer*/
+
+
+/*start map*/
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    border: 5px solid #9e0404;
+    margin: 25px;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/*start section mapabout */
+
+.map-about {
+    padding-top: 20px;
+}
+
+.map-about h1 {
+    color: white;
+}
+
+.map-about h3 {
+    color: white;
+}
+
+
+/*lead da el class bta3 el paragraph*/
+
+.map-about .lead {
+    color: #9e0404;
+    font-size: 25px;
+}
+
+
+/*end section about us
+/*end map*/
+
+table {
+    width: 100%;
+    font-size: 18pt;
+    text-decoration: white;
+    background-color: #3d3c3c;
+}
+
+th {
+    text-align: center;
+    color: black;
+    background-color: #9e0404;
+}
+
+td {
+    color: white;
+}
+
+span {
+    color: black;
+    text-decoration-style: solid;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: separate;
+    text-align: center;
+    table-layout: fixed;
+}
+
+
+/*start section login*/
+
+.login {
+    background: url('../hit/IMG_4203.jpg') no-repeat center center fixed transparent;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+}
+
+.login p {
+    margin-bottom: 40px;
+    font-style: italic
+}
+
+.login input {
+    width: 50%;
+    margin: auto;
+    color: black;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: #9e0404;
+}
+
+.login .form-control:focus {
+    border-color: #9e0404;
+}
+
+.login button:hover {
+    background-color: #9e0404;
+    color: white;
+}
+
+.login .form-group1 input {
+    background-color: #9e0404;
+    color: white;
+    border: 20px;
+    width: 30%;
+    width: 200px;
+    margin: auto;
+}
+
+.login button {
+    background-color: #9e0404;
+    color: white;
+    border: 0px;
+    width: 200px;
+    margin: auto;
+}
+
+.login i {
+    color: #9e0404;
+}
+
+.login a {
+    color: #9e0404;
+    margin: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.login a:hover {
+    color: #9e0404;
+    text-decoration: none;
+}
+
+.register {
+    background: url('../hit/IMG_4203.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+}
+
+.register p {
+    margin-bottom: 40px;
+    font-style: italic
+}
+
+.register input {
+    width: 50%;
+    margin: auto;
+    color: black;
+}
+
+.register .form-control:focus {
+    border-color: #9e0404;
+}
+
+.register .form-group1 input {
+    background-color: #9e0404;
+    color: white;
+    border: 20px;
+    width: 30%;
+    width: 200px;
+    margin: auto;
+}
+
+.register button:hover {
+    background-color: #9e0404;
+    color: white;
+}
+
+.register button {
+    background-color: #9e0404;
+    color: white;
+    border: 0px;
+    width: 200px;
+    margin: auto;
+}
+
+.register i {
+    color: #9e0404;
+}
+
+.register a {
+    color: #9e0404;
+    margin: 20px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.register a:hover {
+    color: #9e0404;
+    text-decoration: none;
+}
+
+
+
+.countdown p {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+
+.countdown h3 {
+    text-align: center;
+    color: white;
+    font-size: : 70px;
+    font-style: bold;
+}
+
+.countdown {
+    border-color: white;
+    border: 2.5px;
+    border-style: dotted;
+    margin: 15px;
+    margin-bottom: 15px;
+}
+S
+/*end section login*/
