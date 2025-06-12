@@ -49,24 +49,17 @@ Download the image assets folder (hit) from the following Google Drive link and 
 
 ## 📂 Folder Structure:
 
-Gym-Website/
-
+<pre>
+   Gym-Website/
 ├── index.php
-
 ├── login.php
-
 ├── register.php
-
 ├── book_session.php
-
 ├── coach_profile.php
-
 ├── css/
-
 ├── fonts/
-
 ├── hit/              <-- Image assets folder
-
 ├── assets/
-
 └── README.md
+</pre>
+
