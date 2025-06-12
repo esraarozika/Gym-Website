@@ -1,0 +1,11 @@
+Gym-Website/
+├── index.php
+├── login.php
+├── register.php
+├── book_session.php
+├── coach_profile.php
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── images/
+└── README.md
