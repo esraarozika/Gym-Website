@@ -39,7 +39,7 @@ A full-featured website for a gym, allowing users to register, log in, reserve w
 
 ---
 
-📸 Images Note:
+## 📸 Images Note:
 Download the image assets folder (hit) from the following Google Drive link and place it in the project root directory next to css, fonts, etc.
 🔗 Download "hit" folder
 
@@ -47,7 +47,7 @@ Download the image assets folder (hit) from the following Google Drive link and 
 
 ---
 
-📂 Folder Structure:
+## 📂 Folder Structure:
 
 Gym-Website/
 
