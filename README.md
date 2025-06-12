@@ -37,6 +37,7 @@ A full-featured website for a gym, allowing users to register, log in, reserve w
 5.Open your browser and go to:
   http://localhost/Gym-Website/index.php
 
+---
 
 📸 Images Note:
 Download the image assets folder (hit) from the following Google Drive link and place it in the project root directory next to css, fonts, etc.
@@ -44,16 +45,28 @@ Download the image assets folder (hit) from the following Google Drive link and 
 
 💡 Note: You may need to create the MySQL database manually using phpMyAdmin and import the SQL file if included.
 
+---
 
 📂 Folder Structure:
+
 Gym-Website/
+
 ├── index.php
+
 ├── login.php
+
 ├── register.php
+
 ├── book_session.php
+
 ├── coach_profile.php
+
 ├── css/
+
 ├── fonts/
+
 ├── hit/              <-- Image assets folder
+
 ├── assets/
+
 └── README.md
